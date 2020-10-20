@@ -14,6 +14,7 @@ between the sample points in the region of interest.
 
 In case of simple kriging, a plane ‘W’, of dimension 100 x 100 is considered, as region of interest. Assuming there are four data known sampled points in the region of interest as shown in the fig.
 
+![alt text]https://github.com/phaneeshwar/Msc-Project/blob/main/Img1.PNG
 
 
 
