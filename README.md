@@ -1,7 +1,7 @@
 # Thermal Imaging Monitoring System Using Simple Kriging and Generative Adversarial Networks
 
 # Abstract
-The notion of this project is to replace the need of thermal cameras in various domains, by introducing few agile techniques such as Simple Kriging along with various approaches of deep learning neural networks. Due to limited access to hardware resources, this paper illustrates on building theoretical prototype that showers insights on generating thermal map using advance Kriging techniques, as well as briefly elaborate on deep learning technique such as Conditional Generative Adversarial Network (cGAN) that promote cognizance towards image-to-image translation to convert the generated heat map into an image. Nevertheless, this conceptual prototype may be extended to real time system that binds both concepts of Kriging and cGAN to arrive at fine thermal image generation fostering the elimination or replacement of usage of thermal cameras. Here, hard coded values have been inputted to Simple Kriging method and open source datasets have been employed to train and test GANs to translate RGB image to real time image.
+The notion of this project is to replace the need of thermal cameras in various domains, by introducing few agile techniques such as Simple Kriging along with various approaches of deep learning neural networks. Due to limited access to hardware resources, this project illustrates on building theoretical prototype that showers insights on generating thermal map using advance Kriging techniques, as well as briefly elaborate on deep learning technique such as Conditional Generative Adversarial Network (cGAN) that promote cognizance towards image-to-image translation to convert the generated heat map into an image. Nevertheless, this conceptual prototype may be extended to real time system that binds both concepts of Kriging and cGAN to arrive at fine thermal image generation fostering the elimination or replacement of usage of thermal cameras. Here, hard coded values have been inputted to Simple Kriging method and open source datasets have been employed to train and test GANs to translate RGB image to real time image.
 
 # Simple- Kriging
 Kriging is a method of spatial interpolation, which is frequently used in mining, soil and environmental science.This technique is one of the best approaches to estimate the
@@ -34,9 +34,12 @@ Output Heat map obtained :
 
 Fig. 4 Heat Map Obtained from Kriging
 
+
 ![alt text](https://github.com/phaneeshwar/Msc-Project/blob/main/Img5.PNG) 
 
 Fig. 5 Heat Map Obtained from Kriging
+
+# CGANs
 
 
 
