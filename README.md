@@ -10,15 +10,18 @@ unsampled points in the given region of interest of a spatial field, by utilizin
 In case of simple kriging, a plane ‘W’, of dimension 100 x 100 is considered, as region of interest. Assuming there are four data known sampled points in the region of interest as shown in the fig 1.
 
 ![alt text](https://github.com/phaneeshwar/Msc-Project/blob/main/Img1.PNG)
+
 Fig 1: Graphical visualization of points in a workspace
 
 In this design, hard coded temperature data values were given as input. Simple kriging technique was implemented to determine temperatures at unknown locations. Eventually,   semi variance and semi variogram is plotted accordingly, shown in the fig 2.
 
 ![alt text](https://github.com/phaneeshwar/Msc-Project/blob/main/Img2.PNG)
+
 Fig 2: Represents the scatter plot of temperature data points
 
 
 ![alt text](https://github.com/phaneeshwar/Msc-Project/blob/main/Img3.PNG)
+
 Fig. 3: Plot of Semi-Variogram
 
  The test point ‘K’ (fig. 1) is determined by evaluating its relation with other known points in the field. This is achieved by determining covariance matrix between the unsampled test point and every other known sampled points. 
@@ -28,9 +31,11 @@ Similarly, every unknown point in the desired region of interest can be realized
 Output Heat map obtained :
 
 ![alt text](https://github.com/phaneeshwar/Msc-Project/blob/main/Image%204.PNG)
+
 Fig. 4 Heat Map Obtained from Kriging
 
 ![alt text](https://github.com/phaneeshwar/Msc-Project/blob/main/Img5.PNG) 
+
 Fig. 5 Heat Map Obtained from Kriging
 
 
